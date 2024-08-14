@@ -1,0 +1,78 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(16, 18, 13);
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #1e617d;
+  color: rgb(228, 236, 236);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.logo {
+  width: 50px;
+  vertical-align: middle;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: rgb(88, 80, 82);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 75%;
+}
+
+.right {
+  background-color: #DCF8C6;
+  margin-left: auto;
+}
+
+.left {
+  background-color: #f1f1f1;
+  margin-right: auto;
+}
+
+.send {
+  background-color: #fff;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#send-container {
+  display: flex;
+  justify-content: center;
+}
+
+#messageInp {
+  width: 80%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
